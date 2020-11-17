@@ -1,0 +1,28 @@
+{
+    "name": "netlinker/kind-prestashop",
+    "description": "PHP library for API PrestaShop",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NetLinker",
+            "email": "netlinkerpro@gmail.com",
+            "homepage": "https://netlinker.pro",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/NetLinkerPro/kind-prestashop"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "NetLinker\\KindPrestaShop\\": ""
+        }
+    }
+}
